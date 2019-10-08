@@ -1,2 +1,4 @@
 # HtmlCssPractice2
-Normal website for laptops only.
+Tried normal website for laptops only.
+Not responsive site.
+
