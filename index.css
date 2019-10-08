@@ -1,0 +1,181 @@
+/*  COMMON  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.cf::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+
+/*  HEADER START */
+
+header {
+    background-color: #ccc;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    padding: 0;
+}
+
+div.header-child {
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    float: left;
+}
+
+span {
+    color: rgb(209, 0, 236);
+}
+
+
+/*  HEADER END */
+
+
+/* NAVIGATION START */
+
+nav.nav-parent {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    line-height: 60px;
+    padding-right: 20px;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+
+/* NAVIGATION END */
+
+
+/* SECTION1 STARTS */
+
+.section1 {
+    margin-bottom: 40px;
+}
+
+span {
+    color: rgb(209, 0, 236);
+}
+
+.section1-child {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    padding: 10px 0;
+}
+
+
+/* SECTION1 ENDS */
+
+
+/* SECTION2 STARTS HERE */
+
+.section2 {
+    background-color: rgb(209, 0, 236);
+    color: #fff;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.section2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* IMGAE */
+
+.section2-parent {
+    width: 50%;
+    float: left;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+/* PARAGRAPH */
+
+p {
+    padding: 10px 0;
+}
+
+section .para {
+    padding: 10px 20px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+}
+
+h2 {
+    display: inline-block;
+    border-right: 2px solid #fff;
+    padding-right: 10px;
+    margin: 10px 0
+}
+
+.container {
+    float: left;
+}
+
+div.img {
+    transition: all 0.01s;
+    overflow: hidden;
+}
+
+img:hover {
+    /* transform-origin: bottom; */
+    transform: scale(2, 2) skew(-8deg);
+    transition: all 4s;
+}
+
+
+/* SECTION2 ENDS HERE */
+
+
+/* FOOTER STARTS HERE */
+
+footer {
+    line-height: 60px;
+    background-color: rgb(209, 0, 236);
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* FOOTER ENDS HERE */
