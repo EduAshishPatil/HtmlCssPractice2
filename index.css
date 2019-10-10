@@ -61,7 +61,8 @@ nav ul {
 
 nav li {
     display: inline-block;
-    padding-right: 20px;
+    padding: 0 20px;
+    transition: all 3s;
 }
 
 nav a {
@@ -69,6 +70,10 @@ nav a {
     color: #000;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+li:hover {
+    background-color: rgb(209, 0, 236);
 }
 
 
@@ -119,6 +124,7 @@ p {
 /* IMGAE */
 
 .section2-parent {
+    overflow: hidden;
     width: 50%;
     float: left;
 }
@@ -152,15 +158,14 @@ h2 {
     float: left;
 }
 
-div.img {
-    transition: all 0.01s;
-    overflow: hidden;
+img {
+    transition: all 2s;
 }
 
-img:hover {
+div.img:hover img {
     /* transform-origin: bottom; */
     transform: scale(2, 2) skew(-8deg);
-    transition: all 4s;
+    /* transition: all 4s; */
 }
 
 
@@ -176,6 +181,4 @@ footer {
     font-weight: bold;
     color: #fff;
 }
-
-
 /* FOOTER ENDS HERE */
